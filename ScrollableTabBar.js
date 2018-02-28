@@ -11,7 +11,7 @@ const {
   Platform,
   Dimensions,
 } = ReactNative;
-const Button = require('./MyButton');
+import Button from './MyButton.js';
 
 const WINDOW_WIDTH = Dimensions.get('window').width;
 
